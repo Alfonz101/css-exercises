@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 img {
@@ -24,4 +26,34 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* My code starts here */
+
+.content {
+  border: 1px solid rebeccapurple;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header, .footer {
+ display: flex;
+ justify-content: space-between; 
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
 }
